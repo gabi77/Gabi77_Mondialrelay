@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Gabi77
+ * @package    Gabi77_Mondialrelay
+ * @copyright  Copyright (c) 2015 gabi77 (http://www.gabi77.com)
+ * @author     Gabriel Janez <contact@gabi77.com>
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+
+ *
+ */
+ -->
+<config>
+	<sections>
+		<carriers>
+			<groups>
+				<pointsrelais translate="label" module="shipping">
+					<fields>
+						<default_attribute translate="label">
+                            <label>Default Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>101</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </default_attribute>
+                        <fr_attribute translate="label">
+                            <label>France Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>102</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fr_attribute>
+                        <corse_attribute translate="label">
+                            <label>France Corse Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>103</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </corse_attribute>
+                        <be_attribute translate="label">
+                            <label>Belgium Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>104</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </be_attribute>
+                        <it_attribute translate="label">
+                            <label>Italy Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>105</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </it_attribute>
+                        <ch_attribute translate="label">
+                            <label>Switzerland Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>106</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </ch_attribute>
+                        <nl_attribute translate="label">
+                            <label>Netherlands Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>107</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </nl_attribute>
+                        <om1_attribute translate="label">
+                            <label>OM1 Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>108</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </om1_attribute>
+                        <coeff translate="label">
+                            <label>Coefficient FP</label>
+                            <comment>Si le FP dépend d'un produit, et que ce produit est en quantité > 1, alors FP = FP produit * coefficient.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>109</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </coeff>
+					</fields>
+				</pointsrelais>
+				
+            	<pointsrelaiscd translate="label" module="shipping">
+					<fields>
+						<default_attribute translate="label">
+                            <label>Default Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>101</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </default_attribute>
+                        <fr_attribute translate="label">
+                            <label>France Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>102</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fr_attribute>
+                        <corse_attribute translate="label">
+                            <label>France Corse Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>103</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </corse_attribute>
+                        <be_attribute translate="label">
+                            <label>Belgium Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>104</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </be_attribute>
+                        <it_attribute translate="label">
+                            <label>Italy Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>105</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </it_attribute>
+                        <ch_attribute translate="label">
+                            <label>Switzerland Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>106</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </ch_attribute>
+                        <nl_attribute translate="label">
+                            <label>Netherlands Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>107</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </nl_attribute>
+                        <om1_attribute translate="label">
+                            <label>OM1 Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>108</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </om1_attribute>
+                        <coeff translate="label">
+                            <label>Coefficient FP</label>
+                            <comment>Si le FP dépend d'un produit, et que ce produit est en quantité > 1, alors FP = FP produit * coefficient.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>109</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </coeff>
+					</fields>
+				</pointsrelaiscd>
+            <pointsrelaislds translate="label" module="shipping">
+					<fields>
+						<default_attribute translate="label">
+                            <label>Default Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>101</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </default_attribute>
+                        <fr_attribute translate="label">
+                            <label>France Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>102</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fr_attribute>
+                        <corse_attribute translate="label">
+                            <label>France Corse Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>103</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </corse_attribute>
+                        <be_attribute translate="label">
+                            <label>Belgium Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>104</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </be_attribute>
+                        <it_attribute translate="label">
+                            <label>Italy Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>105</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </it_attribute>
+                        <ch_attribute translate="label">
+                            <label>Switzerland Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>106</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </ch_attribute>
+                        <nl_attribute translate="label">
+                            <label>Netherlands Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>107</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </nl_attribute>
+                        <om1_attribute translate="label">
+                            <label>OM1 Shipping Price attribute</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>Gabi77_Mondialrelay_Model_Source_Attributesprice</source_model>
+                            <sort_order>108</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </om1_attribute>
+                        <coeff translate="label">
+                            <label>Coefficient FP</label>
+                            <comment>Si le FP dépend d'un produit, et que ce produit est en quantité > 1, alors FP = FP produit * coefficient.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>109</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </coeff>
+					</fields>
+				</pointsrelaislds>
+			</groups>
+		</carriers>
+	</sections>
+</config>
